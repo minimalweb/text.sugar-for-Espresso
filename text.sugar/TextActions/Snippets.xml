@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<action-recipes>
+				
+	<snippet id="de.minimalweb.genericTextActions.doubleBrackets" category="hidden">
+		<title>double-brackets</title>
+		<text>($EDITOR_SELECTION$0)</text>
+		<syntax-context>*</syntax-context>
+		<text-trigger key-equivalent="("></text-trigger>
+	</snippet>
+	
+	<snippet id="de.minimalweb.genericTextActions.doubleCurlyBrackets" category="hidden">
+		<title>double-curly-brackets</title>
+		<text>{${0:$EDITOR_SELECTION}}</text>
+		<syntax-context>js, html, html *, php</syntax-context>
+		<text-trigger key-equivalent="{"></text-trigger>
+	</snippet>
+	
+	<snippet id="de.minimalweb.genericTextActions.singleQuotes" category="hidden">
+		<title>single-quotes</title>
+		<text>'${0:$EDITOR_SELECTION}'</text>
+		<syntax-context>*</syntax-context>
+		<text-trigger key-equivalent="shift #"></text-trigger>
+	</snippet>
+	
+	<snippet id="de.minimalweb.genericTextActions.doubleQuotes" category="hidden">
+		<title>double-quotes</title>
+		<text>"${0:$EDITOR_SELECTION}"</text>
+		<syntax-context>*</syntax-context>
+		<text-trigger key-equivalent="shift 2"></text-trigger>
+	</snippet>
+
+</action-recipes> 
