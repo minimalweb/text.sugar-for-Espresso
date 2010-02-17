@@ -3,4 +3,6 @@
 	<category id="actions.text.text" show="sub">
 		<title>Text</title>
 	</category>
+	<category id="minimalweb.textActions.manipulation" show="inline separated"></category>
+	<category id="minimalweb.textActions.moving" show="inline separated"></category>
 </action-categories>

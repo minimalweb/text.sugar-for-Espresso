@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <action-recipes>
 	
-	<action id="com.onecrayon.DeleteLine" category="actions.text.text/minimalwebTextActions.2">
+	<action id="com.onecrayon.DeleteLine" category="actions.text.text/minimalweb.textActions.manipulation/minimalwebTextActions.2">
 		<class>Spice</class>
 		<title>Delete Line</title>
 		<key-equivalent>shift control k</key-equivalent>
@@ -11,7 +11,7 @@
 		</setup>
 	</action>
 	
-	<action id="com.onecrayon.DeleteLine" category="actions.text.text/minimalwebTextActions.1">
+	<action id="com.onecrayon.DeleteLine" category="actions.text.text/minimalweb.textActions.manipulation/minimalwebTextActions.1">
 		<class>Spice</class>
 		<title>Duplicate Line</title>
 		<key-equivalent>shift control d</key-equivalent>
@@ -21,7 +21,7 @@
 		</setup>
 	</action>
 	
-	<action id="de.minimalweb.genericTextActions.joinLines" category="actions.text.text/minimalwebTextActions.3">
+	<action id="de.minimalweb.genericTextActions.joinLines" category="actions.text.text/minimalweb.textActions.manipulation/minimalwebTextActions.3">
 		<class>Spice</class>
 		<title>Join lines</title>
 		<key-equivalent>control shift j</key-equivalent>
@@ -31,7 +31,7 @@
 		</setup>
 	</action>
 	
-	<action id="com.onecrayon.MoveLineUp" category="actions.text.text/minimalwebTextActions.4">
+	<action id="com.onecrayon.MoveLineUp" category="actions.text.text/minimalweb.textActions.moving/minimalwebTextActions.4">
 		<class>Spice</class>
 		<title>Move Line Up</title>
 		<key-equivalent>control command arrow-up</key-equivalent>
@@ -46,7 +46,7 @@
 		</setup>
 	</action>
 	
-	<action id="com.onecrayon.MoveLineDown" category="actions.text.text/minimalwebTextActions.5">
+	<action id="com.onecrayon.MoveLineDown" category="actions.text.text/minimalweb.textActions.moving/minimalwebTextActions.5">
 		<class>Spice</class>
 		<title>Move Line Down</title>
 		<key-equivalent>control command arrow-down</key-equivalent>
