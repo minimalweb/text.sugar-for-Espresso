@@ -13,11 +13,11 @@
 	
 	<action id="com.onecrayon.DeleteLine" category="actions.text.text/minimalweb.textActions.manipulation/minimalwebTextActions.1">
 		<class>Spice</class>
-		<title>Duplicate Line</title>
+		<title>Duplicate Selection</title>
 		<key-equivalent>shift control d</key-equivalent>
 		<setup>
 			<script>duplicate_line</script>
-			<undo_name>Duplicate Line</undo_name>
+			<undo_name>Duplicate Selection</undo_name>
 		</setup>
 	</action>
 	
