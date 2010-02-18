@@ -1,0 +1,11 @@
+<?xml version="1.0"?>
+<action-sort-instructions>
+	<sort-template>
+		<selector>actions.text.autopairing</selector>
+		<selector>minimalweb.textActions.manipulation</selector>
+		<selector>minimalweb.textActions.sorting</selector>
+		<selector>minimalweb.textActions.pairing</selector>
+		<selector>minimalweb.textActions.enclosure</selector>
+		<selector>*</selector>
+	</sort-template>
+</action-sort-instructions>
