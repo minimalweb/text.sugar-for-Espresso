@@ -1,39 +1,165 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <action-recipes>
-				
-	<snippet id="de.minimalweb.genericTextActions.doubleBrackets" category="hidden">
-		<title>double-brackets</title>
-		<text><![CDATA[($EDITOR_SELECTION$0)]]></text>
-		<syntax-context>*</syntax-context>
-		<text-trigger key-equivalent="("></text-trigger>
-	</snippet>
-	
-	<snippet id="de.minimalweb.genericTextActions.doubleCurlyBrackets" category="hidden">
-		<title>double-curly-brackets</title>
-		<text><![CDATA[{${0:$EDITOR_SELECTION}}]]></text>
-		<syntax-context>js, html, html *, php, xml</syntax-context>
-		<text-trigger key-equivalent="{"></text-trigger>
-	</snippet>
-	
-	<snippet id="de.minimalweb.genericTextActions.singleQuotes" category="hidden">
-		<title>single-quotes</title>
-		<text><![CDATA['${0:$EDITOR_SELECTION}']]></text>
-		<syntax-context>*</syntax-context>
-		<text-trigger key-equivalent="shift #"></text-trigger>
-	</snippet>
-	
-	<snippet id="de.minimalweb.genericTextActions.doubleQuotes" category="hidden">
-		<title>double-quotes</title>
-		<text><![CDATA["${0:$EDITOR_SELECTION}"]]></text>
-		<syntax-context>*</syntax-context>
-		<text-trigger key-equivalent="shift 2"></text-trigger>
-	</snippet>
-	
-	<snippet id="de.minimalweb.genericTextActions.doubleSquareBrackets" category="hidden">
-		<title>double-square-brackets</title>
-		<text><![CDATA[[${0:$EDITOR_SELECTION}]]]></text>
-		<syntax-context>*</syntax-context>
-		<text-trigger key-equivalent="option 5"></text-trigger>
-	</snippet>
+		
+	<action id="de.minimalweb.textActions.singleQuotes" category="actions.text.text/actions.text.autopairing/minimalweb.textActions.pairing/minimalwebAutopairing.5">
+		<class>TEAforEspresso</class>
+		<title>Autopair Single Quotes</title>
+		<text-trigger>'</text-trigger>
+		<setup>
+			<action>insert_snippet</action>
+				<options>
+					<dict>
+						<key>default</key>
+						<string><![CDATA['$1'$0]]></string>
+					</dict>
+				</options>
+			<undo_name>Single Quotes</undo_name>
+		</setup>
+	</action>
+		
+	<action id="de.minimalweb.textActions.doubleQuotes" category="actions.text.text/actions.text.autopairing/minimalweb.textActions.pairing/minimalwebAutopairing.4">
+		<class>TEAforEspresso</class>
+		<title>Autopair Double Quotes</title>
+		<text-trigger>"</text-trigger>
+		<setup>
+			<action>insert_snippet</action>
+				<options>
+					<dict>
+						<key>default</key>
+						<string><![CDATA["$1"$0]]></string>
+					</dict>
+				</options>
+			<undo_name>Double Quotes</undo_name>
+		</setup>
+	</action>
+		
+	<action id="de.minimalweb.textActions.doubleSquareBrackets" category="actions.text.text/actions.text.autopairing/minimalweb.textActions.pairing/minimalwebAutopairing.2">
+		<class>TEAforEspresso</class>
+		<title>Autopair Square Brackets</title>
+		<text-trigger>[</text-trigger>
+		<setup>
+			<action>insert_snippet</action>
+				<options>
+					<dict>
+						<key>default</key>
+						<string><![CDATA[[$1]$0]]></string>
+					</dict>
+				</options>
+			<undo_name>Square Brackets</undo_name>
+		</setup>
+	</action>
+		
+	<action id="de.minimalweb.textActions.doubleBrackets" category="actions.text.text/actions.text.autopairing/minimalweb.textActions.pairing/minimalwebAutopairing.1">
+		<class>TEAforEspresso</class>
+		<title>Autopair Brackets</title>
+		<text-trigger>(</text-trigger>
+		<setup>
+			<action>insert_snippet</action>
+				<options>
+					<dict>
+						<key>default</key>
+						<string><![CDATA[($1)$0]]></string>
+					</dict>
+				</options>
+			<undo_name>Brackets</undo_name>
+		</setup>
+	</action>
+		
+	<action id="de.minimalweb.textActions.doubleCurlyBrackets" category="actions.text.text/actions.text.autopairing/minimalweb.textActions.pairing/minimalwebAutopairing.3">
+		<class>TEAforEspresso</class>
+		<title>Autopair Curly Brackets</title>
+		<text-trigger>{</text-trigger>
+		<setup>
+			<action>insert_snippet</action>
+				<options>
+					<dict>
+						<key>default</key>
+						<string><![CDATA[{$1}$0]]></string>
+					</dict>
+				</options>
+			<undo_name>Curly Brackets</undo_name>
+		</setup>
+	</action>
+			
+			
+	<action id="de.minimalweb.textActions.singleQuotes" category="actions.text.text/actions.text.autopairing/minimalweb.textActions.enclosure/minimalwebEnclosure.5">
+		<class>TEAforEspresso</class>
+		<title>Wrap In Single Quotes</title>
+		<key-equivalent>control '</key-equivalent>
+		<setup>
+			<action>insert_snippet</action>
+				<options>
+					<dict>
+						<key>default</key>
+						<string><![CDATA['${1:$SELECTED_TEXT}'$0]]></string>
+					</dict>
+				</options>
+			<undo_name>Single Quotes</undo_name>
+		</setup>
+	</action>
+		
+	<action id="de.minimalweb.textActions.doubleQuotes" category="actions.text.text/actions.text.autopairing/minimalweb.textActions.enclosure/minimalwebEnclosure.4">
+		<class>TEAforEspresso</class>
+		<title>Wrap In Double Quotes</title>
+		<key-equivalent>control "</key-equivalent>
+		<setup>
+			<action>insert_snippet</action>
+				<options>
+					<dict>
+						<key>default</key>
+						<string><![CDATA["${1:$SELECTED_TEXT}"$0]]></string>
+					</dict>
+				</options>
+			<undo_name>Double Quotes</undo_name>
+		</setup>
+	</action>
+		
+	<action id="de.minimalweb.textActions.doubleSquareBrackets" category="actions.text.text/actions.text.autopairing/minimalweb.textActions.enclosure/minimalwebEnclosure.2">
+		<class>TEAforEspresso</class>
+		<title>Wrap In Square Brackets</title>
+		<key-equivalent>control [</key-equivalent>
+		<setup>
+			<action>insert_snippet</action>
+				<options>
+					<dict>
+						<key>default</key>
+						<string><![CDATA[[${1:$SELECTED_TEXT}]$0]]></string>
+					</dict>
+				</options>
+			<undo_name>Square Brackets</undo_name>
+		</setup>
+	</action>
+		
+	<action id="de.minimalweb.textActions.doubleBrackets" category="actions.text.text/actions.text.autopairing/minimalweb.textActions.enclosure/minimalwebEnclosure.1">
+		<class>TEAforEspresso</class>
+		<title>Wrap In Brackets</title>
+		<key-equivalent>control (</key-equivalent>
+		<setup>
+			<action>insert_snippet</action>
+				<options>
+					<dict>
+						<key>default</key>
+						<string><![CDATA[(${1:$SELECTED_TEXT})$0]]></string>
+					</dict>
+				</options>
+			<undo_name>Brackets</undo_name>
+		</setup>
+	</action>
+		
+	<action id="de.minimalweb.textActions.doubleCurlyBrackets" category="actions.text.text/actions.text.autopairing/minimalweb.textActions.enclosure/minimalwebEnclosure.3">
+		<class>TEAforEspresso</class>
+		<title>Wrap In Curly Brackets</title>
+		<key-equivalent>control {</key-equivalent>
+		<setup>
+			<action>insert_snippet</action>
+				<options>
+					<dict>
+						<key>default</key>
+						<string><![CDATA[{${1:$SELECTED_TEXT}}$0]]></string>
+					</dict>
+				</options>
+			<undo_name>Curly Brackets</undo_name>
+		</setup>
+	</action>
 
-</action-recipes> 
+</action-recipes>
