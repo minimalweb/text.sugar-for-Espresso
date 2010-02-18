@@ -1,4 +1,9 @@
-This Bundle adds functionality from the TextMate text.bundle to Espresso
-For some of them you need to install Spice by Ian Beck http://onecrayon.com/spice/
+This Bundle the following functionality from the TextMate text.bundle to Espresso
+(You need to install Spice by Ian Beck http://onecrayon.com/spice/ for them to work):
+
+Move Line up/down
+Delete Line
+Join Line With Next
+Duplicate Selection
 
 It also provides simple autopairing and enclosing with quotes and brackets.
