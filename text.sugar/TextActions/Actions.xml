@@ -31,7 +31,7 @@
 		</setup>
 	</action>
 	
-	<action id="com.onecrayon.MoveLineUp" category="actions.text.text/minimalweb.textActions.sorting">
+	<action id="com.onecrayon.MoveLineUp" category="actions.text.text/minimalweb.textActions.sorting/minimalwebTextSorting.1">
 		<class>Spice</class>
 		<title>Move Line Up</title>
 		<key-equivalent>control command arrow-up</key-equivalent>
@@ -46,7 +46,7 @@
 		</setup>
 	</action>
 	
-	<action id="com.onecrayon.MoveLineDown" category="actions.text.text/minimalweb.textActions.sorting">
+	<action id="com.onecrayon.MoveLineDown" category="actions.text.text/minimalweb.textActions.sorting/minimalwebTextSorting.2">
 		<class>Spice</class>
 		<title>Move Line Down</title>
 		<key-equivalent>control command arrow-down</key-equivalent>
