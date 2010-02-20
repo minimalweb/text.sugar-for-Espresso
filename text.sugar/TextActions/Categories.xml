@@ -10,4 +10,5 @@
 	<category id="minimalweb.textActions.sorting" show="inline separated"></category>
 	<category id="minimalweb.textActions.pairing" show="inline separated"></category>
 	<category id="minimalweb.textActions.enclosure" show="inline separated"></category>
+	<category id="minimalweb.textActions.helper" show="inline separated"></category>
 </action-categories>

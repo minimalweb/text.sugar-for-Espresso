@@ -161,5 +161,23 @@
 			<undo_name>Curly Brackets</undo_name>
 		</setup>
 	</action>
+	
+	<snippet id="de.minimalweb.textActions.loremipsum" category="actions.text.text/minimalweb.textActions.helper/minimalwebHelper.3">
+	   <title>Lorem Ipsum</title>
+	   <text><![CDATA[Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.]]></text>
+	   <text-trigger>lorem</text-trigger>
+	</snippet>
+	
+	<snippet id="de.minimalweb.textActions.date" category="actions.text.text/minimalweb.textActions.helper/minimalwebHelper.2">
+	   <title>Current Date – YYYY-MM-DD</title>
+	   <text><![CDATA[`date +"%Y-%m-%d"`]]></text>
+	   <text-trigger>isoD</text-trigger>
+	</snippet>
+	
+	<snippet id="de.minimalweb.textActions.copyright" category="actions.text.text/minimalweb.textActions.helper/minimalwebHelper.1">
+	   <title>Copyright Notice</title>
+	   <text><![CDATA[(c) Copyright `date +"%Y"` ${1:Your Name}. All Rights Reserved.]]></text>
+	   <text-trigger>c)</text-trigger>
+	</snippet>
 
 </action-recipes>

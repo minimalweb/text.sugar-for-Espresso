@@ -6,6 +6,7 @@
 		<selector>minimalweb.textActions.sorting</selector>
 		<selector>minimalweb.textActions.pairing</selector>
 		<selector>minimalweb.textActions.enclosure</selector>
+		<selector>minimalweb.textActions.helper</selector>
 		<selector>*</selector>
 	</sort-template>
 </action-sort-instructions>
