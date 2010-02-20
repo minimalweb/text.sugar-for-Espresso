@@ -18,6 +18,6 @@ Dependencies
 ------------
 
 Some of the actions require the Spice.sugar by Ian Beck. You can find it here:
-http://github.com/onecrayon/Spice-sugar
+[http://github.com/onecrayon/Spice-sugar](http://github.com/onecrayon/Spice-sugar)
 
-If you want to learn more about Spice, visit http://onecrayon.com/spice/
+If you want to learn more about Spice, visit [http://onecrayon.com/spice/](http://github.com/onecrayon/Spice-sugar)
