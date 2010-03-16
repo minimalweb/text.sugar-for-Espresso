@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <action-recipes>
 		
-	<action id="de.minimalweb.textActions.singleQuotes" category="actions.text.text/actions.text.autopairing/minimalweb.textActions.pairing/minimalwebAutopairing.5">
+	<action id="de.minimalweb.textActions.singleQuotes" category="actions.text.text/actions.text.autopairing/minimalweb.textActions.pairing/mwTextPairing.5">
 		<class>TEAforEspresso</class>
 		<title>Autopair Single Quotes</title>
 		<text-trigger>'</text-trigger>
@@ -17,7 +17,7 @@
 		</setup>
 	</action>
 		
-	<action id="de.minimalweb.textActions.doubleQuotes" category="actions.text.text/actions.text.autopairing/minimalweb.textActions.pairing/minimalwebAutopairing.4">
+	<action id="de.minimalweb.textActions.doubleQuotes" category="actions.text.text/actions.text.autopairing/minimalweb.textActions.pairing/mwTextPairing.4">
 		<class>TEAforEspresso</class>
 		<title>Autopair Double Quotes</title>
 		<text-trigger>"</text-trigger>
@@ -33,7 +33,7 @@
 		</setup>
 	</action>
 		
-	<action id="de.minimalweb.textActions.doubleSquareBrackets" category="actions.text.text/actions.text.autopairing/minimalweb.textActions.pairing/minimalwebAutopairing.2">
+	<action id="de.minimalweb.textActions.doubleSquareBrackets" category="actions.text.text/actions.text.autopairing/minimalweb.textActions.pairing/mwTextPairing.2">
 		<class>TEAforEspresso</class>
 		<title>Autopair Square Brackets</title>
 		<text-trigger>[</text-trigger>
@@ -49,7 +49,7 @@
 		</setup>
 	</action>
 		
-	<action id="de.minimalweb.textActions.doubleBrackets" category="actions.text.text/actions.text.autopairing/minimalweb.textActions.pairing/minimalwebAutopairing.1">
+	<action id="de.minimalweb.textActions.doubleBrackets" category="actions.text.text/actions.text.autopairing/minimalweb.textActions.pairing/mwTextPairing.1">
 		<class>TEAforEspresso</class>
 		<title>Autopair Brackets</title>
 		<text-trigger>(</text-trigger>
@@ -65,7 +65,7 @@
 		</setup>
 	</action>
 		
-	<action id="de.minimalweb.textActions.doubleCurlyBrackets" category="actions.text.text/actions.text.autopairing/minimalweb.textActions.pairing/minimalwebAutopairing.3">
+	<action id="de.minimalweb.textActions.doubleCurlyBrackets" category="actions.text.text/actions.text.autopairing/minimalweb.textActions.pairing/mwTextPairing.3">
 		<class>TEAforEspresso</class>
 		<title>Autopair Curly Brackets</title>
 		<text-trigger>{</text-trigger>
@@ -82,7 +82,7 @@
 	</action>
 			
 			
-	<action id="de.minimalweb.textActions.singleQuotes" category="actions.text.text/actions.text.autopairing/minimalweb.textActions.enclosure/minimalwebEnclosure.5">
+	<action id="de.minimalweb.textActions.singleQuotes" category="actions.text.text/actions.text.autopairing/minimalweb.textActions.enclosure/mwTextEnclosure.5">
 		<class>TEAforEspresso</class>
 		<title>Wrap In Single Quotes</title>
 		<key-equivalent>control '</key-equivalent>
@@ -98,7 +98,7 @@
 		</setup>
 	</action>
 		
-	<action id="de.minimalweb.textActions.doubleQuotes" category="actions.text.text/actions.text.autopairing/minimalweb.textActions.enclosure/minimalwebEnclosure.4">
+	<action id="de.minimalweb.textActions.doubleQuotes" category="actions.text.text/actions.text.autopairing/minimalweb.textActions.enclosure/mwTextEnclosure.4">
 		<class>TEAforEspresso</class>
 		<title>Wrap In Double Quotes</title>
 		<key-equivalent>control "</key-equivalent>
@@ -114,7 +114,7 @@
 		</setup>
 	</action>
 		
-	<action id="de.minimalweb.textActions.doubleSquareBrackets" category="actions.text.text/actions.text.autopairing/minimalweb.textActions.enclosure/minimalwebEnclosure.2">
+	<action id="de.minimalweb.textActions.doubleSquareBrackets" category="actions.text.text/actions.text.autopairing/minimalweb.textActions.enclosure/mwTextEnclosure.2">
 		<class>TEAforEspresso</class>
 		<title>Wrap In Square Brackets</title>
 		<key-equivalent>control [</key-equivalent>
@@ -130,7 +130,7 @@
 		</setup>
 	</action>
 		
-	<action id="de.minimalweb.textActions.doubleBrackets" category="actions.text.text/actions.text.autopairing/minimalweb.textActions.enclosure/minimalwebEnclosure.1">
+	<action id="de.minimalweb.textActions.doubleBrackets" category="actions.text.text/actions.text.autopairing/minimalweb.textActions.enclosure/mwTextEnclosure.1">
 		<class>TEAforEspresso</class>
 		<title>Wrap In Brackets</title>
 		<key-equivalent>control (</key-equivalent>
@@ -146,7 +146,7 @@
 		</setup>
 	</action>
 		
-	<action id="de.minimalweb.textActions.doubleCurlyBrackets" category="actions.text.text/actions.text.autopairing/minimalweb.textActions.enclosure/minimalwebEnclosure.3">
+	<action id="de.minimalweb.textActions.doubleCurlyBrackets" category="actions.text.text/actions.text.autopairing/minimalweb.textActions.enclosure/mwTextEnclosure.3">
 		<class>TEAforEspresso</class>
 		<title>Wrap In Curly Brackets</title>
 		<key-equivalent>control {</key-equivalent>
@@ -162,22 +162,22 @@
 		</setup>
 	</action>
 	
-	<snippet id="de.minimalweb.textActions.loremipsum" category="actions.text.text/minimalweb.textActions.helper/minimalwebHelper.3">
-	   <title>Lorem Ipsum</title>
-	   <text><![CDATA[Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.]]></text>
-	   <text-trigger>lorem</text-trigger>
+	<snippet id="de.minimalweb.textActions.copyright" category="actions.text.text/minimalweb.textActions.helper/mwTextHelper.1">
+	   <title>Copyright Notice</title>
+	   <text><![CDATA[(c) Copyright `date +"%Y"` ${1:Your Name}. All Rights Reserved.]]></text>
+	   <text-trigger>c)</text-trigger>
 	</snippet>
 	
-	<snippet id="de.minimalweb.textActions.date" category="actions.text.text/minimalweb.textActions.helper/minimalwebHelper.2">
+	<snippet id="de.minimalweb.textActions.date" category="actions.text.text/minimalweb.textActions.helper/mwTextHelper.2">
 	   <title>Current Date – YYYY-MM-DD</title>
 	   <text><![CDATA[`date +"%Y-%m-%d"`]]></text>
 	   <text-trigger>isoD</text-trigger>
 	</snippet>
 	
-	<snippet id="de.minimalweb.textActions.copyright" category="actions.text.text/minimalweb.textActions.helper/minimalwebHelper.1">
-	   <title>Copyright Notice</title>
-	   <text><![CDATA[(c) Copyright `date +"%Y"` ${1:Your Name}. All Rights Reserved.]]></text>
-	   <text-trigger>c)</text-trigger>
+	<snippet id="de.minimalweb.textActions.loremipsum" category="actions.text.text/minimalweb.textActions.helper/mwTextHelper.3">
+	   <title>Lorem Ipsum</title>
+	   <text><![CDATA[Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.]]></text>
+	   <text-trigger>lorem</text-trigger>
 	</snippet>
 
 </action-recipes>

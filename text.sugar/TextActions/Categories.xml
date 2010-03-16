@@ -6,8 +6,12 @@
 	<category id="actions.text.autopairing" show="sub">
 		<title>Autopairing</title>
 	</category>
+	<category id="actions.text.converting" show="sub">
+		<title>Converting / Stripping</title>
+	</category>
 	<category id="minimalweb.textActions.manipulation" show="inline separated"></category>
 	<category id="minimalweb.textActions.sorting" show="inline separated"></category>
+	<category id="minimalweb.textActions.converting" show="inline separated"></category>
 	<category id="minimalweb.textActions.pairing" show="inline separated"></category>
 	<category id="minimalweb.textActions.enclosure" show="inline separated"></category>
 	<category id="minimalweb.textActions.helper" show="inline separated"></category>
