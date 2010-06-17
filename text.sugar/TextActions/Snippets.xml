@@ -10,7 +10,7 @@
 				<options>
 					<dict>
 						<key>default</key>
-						<string><![CDATA['$1'$0]]></string>
+						<string><![CDATA['$0']]></string>
 					</dict>
 				</options>
 			<undo_name>Single Quotes</undo_name>
@@ -26,7 +26,7 @@
 				<options>
 					<dict>
 						<key>default</key>
-						<string><![CDATA["$1"$0]]></string>
+						<string><![CDATA["$0"]]></string>
 					</dict>
 				</options>
 			<undo_name>Double Quotes</undo_name>
@@ -42,7 +42,7 @@
 				<options>
 					<dict>
 						<key>default</key>
-						<string><![CDATA[[$1]$0]]></string>
+						<string><![CDATA[[$0]]]></string>
 					</dict>
 				</options>
 			<undo_name>Square Brackets</undo_name>
@@ -58,7 +58,7 @@
 				<options>
 					<dict>
 						<key>default</key>
-						<string><![CDATA[($1)$0]]></string>
+						<string><![CDATA[($0)]]></string>
 					</dict>
 				</options>
 			<undo_name>Brackets</undo_name>
@@ -74,7 +74,7 @@
 				<options>
 					<dict>
 						<key>default</key>
-						<string><![CDATA[{$1}$0]]></string>
+						<string><![CDATA[{$0}]]></string>
 					</dict>
 				</options>
 			<undo_name>Curly Brackets</undo_name>
