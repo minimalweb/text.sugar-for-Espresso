@@ -12,7 +12,7 @@ This sugar adds the following functionality from the *TextMate text.bundle* to E
 * Current Date
 * Copyright Notice
 
-It also provides simple autopairing and enclosing with quotes and brackets.
+It also provides autopairing of and enclosing with quotes and brackets.
 
 Dependencies
 ------------
