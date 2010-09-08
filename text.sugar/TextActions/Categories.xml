@@ -3,8 +3,8 @@
 	<category id="actions.text.text" show="sub">
 		<title>Text</title>
 	</category>
-	<category id="actions.text.autopairing" show="sub">
-		<title>Autopairing</title>
+	<category id="actions.text.wrapping" show="sub">
+		<title>Wrap Selection In…</title>
 	</category>
 	<category id="actions.text.converting" show="sub">
 		<title>Converting / Stripping</title>

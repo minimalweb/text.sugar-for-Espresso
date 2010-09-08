@@ -1,90 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <action-recipes>
-		
-	<action id="de.minimalweb.textActions.singleQuotes" category="actions.text.text/actions.text.autopairing/minimalweb.textActions.pairing/mwTextPairing.5">
-		<class>TEAforEspresso</class>
-		<title>Autopair Single Quotes</title>
-		<text-trigger>'</text-trigger>
-		<setup>
-			<action>insert_snippet</action>
-				<options>
-					<dict>
-						<key>default</key>
-						<string><![CDATA['$0']]></string>
-					</dict>
-				</options>
-			<undo_name>Single Quotes</undo_name>
-		</setup>
-	</action>
-		
-	<action id="de.minimalweb.textActions.doubleQuotes" category="actions.text.text/actions.text.autopairing/minimalweb.textActions.pairing/mwTextPairing.4">
-		<class>TEAforEspresso</class>
-		<title>Autopair Double Quotes</title>
-		<text-trigger>"</text-trigger>
-		<setup>
-			<action>insert_snippet</action>
-				<options>
-					<dict>
-						<key>default</key>
-						<string><![CDATA["$0"]]></string>
-					</dict>
-				</options>
-			<undo_name>Double Quotes</undo_name>
-		</setup>
-	</action>
-		
-	<action id="de.minimalweb.textActions.doubleSquareBrackets" category="actions.text.text/actions.text.autopairing/minimalweb.textActions.pairing/mwTextPairing.2">
-		<class>TEAforEspresso</class>
-		<title>Autopair Square Brackets</title>
-		<text-trigger>[</text-trigger>
-		<setup>
-			<action>insert_snippet</action>
-				<options>
-					<dict>
-						<key>default</key>
-						<string><![CDATA[[$0]]]></string>
-					</dict>
-				</options>
-			<undo_name>Square Brackets</undo_name>
-		</setup>
-	</action>
-		
-	<action id="de.minimalweb.textActions.doubleBrackets" category="actions.text.text/actions.text.autopairing/minimalweb.textActions.pairing/mwTextPairing.1">
-		<class>TEAforEspresso</class>
-		<title>Autopair Brackets</title>
-		<text-trigger>(</text-trigger>
-		<setup>
-			<action>insert_snippet</action>
-				<options>
-					<dict>
-						<key>default</key>
-						<string><![CDATA[($0)]]></string>
-					</dict>
-				</options>
-			<undo_name>Brackets</undo_name>
-		</setup>
-	</action>
-		
-	<action id="de.minimalweb.textActions.doubleCurlyBrackets" category="actions.text.text/actions.text.autopairing/minimalweb.textActions.pairing/mwTextPairing.3">
-		<class>TEAforEspresso</class>
-		<title>Autopair Curly Brackets</title>
-		<text-trigger>{</text-trigger>
-		<setup>
-			<action>insert_snippet</action>
-				<options>
-					<dict>
-						<key>default</key>
-						<string><![CDATA[{$0}]]></string>
-					</dict>
-				</options>
-			<undo_name>Curly Brackets</undo_name>
-		</setup>
-	</action>
 			
-			
-	<action id="de.minimalweb.textActions.singleQuotes" category="actions.text.text/actions.text.autopairing/minimalweb.textActions.enclosure/mwTextEnclosure.5">
+	<action id="de.minimalweb.textActions.singleQuotes" category="actions.text.text/actions.text.wrapping/minimalweb.textActions.enclosure/mwTextEnclosure.5">
 		<class>TEAforEspresso</class>
-		<title>Wrap In Single Quotes</title>
+		<title>Single Quotes</title>
 		<key-equivalent>control '</key-equivalent>
 		<setup>
 			<action>insert_snippet</action>
@@ -98,9 +17,9 @@
 		</setup>
 	</action>
 		
-	<action id="de.minimalweb.textActions.doubleQuotes" category="actions.text.text/actions.text.autopairing/minimalweb.textActions.enclosure/mwTextEnclosure.4">
+	<action id="de.minimalweb.textActions.doubleQuotes" category="actions.text.text/actions.text.wrapping/minimalweb.textActions.enclosure/mwTextEnclosure.4">
 		<class>TEAforEspresso</class>
-		<title>Wrap In Double Quotes</title>
+		<title>Double Quotes</title>
 		<key-equivalent>control "</key-equivalent>
 		<setup>
 			<action>insert_snippet</action>
@@ -114,9 +33,9 @@
 		</setup>
 	</action>
 		
-	<action id="de.minimalweb.textActions.doubleSquareBrackets" category="actions.text.text/actions.text.autopairing/minimalweb.textActions.enclosure/mwTextEnclosure.2">
+	<action id="de.minimalweb.textActions.doubleSquareBrackets" category="actions.text.text/actions.text.wrapping/minimalweb.textActions.enclosure/mwTextEnclosure.2">
 		<class>TEAforEspresso</class>
-		<title>Wrap In Square Brackets</title>
+		<title>Square Brackets</title>
 		<key-equivalent>control [</key-equivalent>
 		<setup>
 			<action>insert_snippet</action>
@@ -130,9 +49,9 @@
 		</setup>
 	</action>
 		
-	<action id="de.minimalweb.textActions.doubleBrackets" category="actions.text.text/actions.text.autopairing/minimalweb.textActions.enclosure/mwTextEnclosure.1">
+	<action id="de.minimalweb.textActions.doubleBrackets" category="actions.text.text/actions.text.wrapping/minimalweb.textActions.enclosure/mwTextEnclosure.1">
 		<class>TEAforEspresso</class>
-		<title>Wrap In Brackets</title>
+		<title>Brackets</title>
 		<key-equivalent>control (</key-equivalent>
 		<setup>
 			<action>insert_snippet</action>
@@ -146,9 +65,9 @@
 		</setup>
 	</action>
 		
-	<action id="de.minimalweb.textActions.doubleCurlyBrackets" category="actions.text.text/actions.text.autopairing/minimalweb.textActions.enclosure/mwTextEnclosure.3">
+	<action id="de.minimalweb.textActions.doubleCurlyBrackets" category="actions.text.text/actions.text.wrapping/minimalweb.textActions.enclosure/mwTextEnclosure.3">
 		<class>TEAforEspresso</class>
-		<title>Wrap In Curly Brackets</title>
+		<title>Curly Brackets</title>
 		<key-equivalent>control {</key-equivalent>
 		<setup>
 			<action>insert_snippet</action>

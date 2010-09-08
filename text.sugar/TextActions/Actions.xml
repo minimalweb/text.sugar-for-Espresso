@@ -1,5 +1,36 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <action-recipes>
+	
+	<snippet id="de.minimalweb.textActions.autopairBrackets" category="hidden">
+		<title>Autopair Brackets</title>
+		<text-trigger key-equivalent="("></text-trigger>
+		<text>($1)$0</text>
+	</snippet>
+	
+	<snippet id="de.minimalweb.textActions.autopairCurlyBrackets" category="hidden">
+		<title>Autopair Curly Brackets</title>
+		<text-trigger key-equivalent="{"></text-trigger>
+		<text>{$1}$0</text>
+	</snippet>
+	
+	<snippet id="de.minimalweb.textActions.autopairSquareBrackets" category="hidden">
+		<title>Autopair Square Brackets</title>
+		<text-trigger key-equivalent="["></text-trigger>
+		<text>[$1]$0</text>
+	</snippet>
+	
+	<snippet id="de.minimalweb.textActions.autopairSingleQuotes" category="hidden">
+		<title>Autopair Single Quotes</title>
+		<text-trigger key-equivalent="'"></text-trigger>
+		<text>'$1'$0</text>
+	</snippet>
+	
+	<snippet id="de.minimalweb.textActions.autopairDoubleQuotes" category="hidden">
+		<title>Autopair Double Quotes</title>
+		<text-trigger key-equivalent='"'></text-trigger>
+		<text>"$1"$0</text>
+	</snippet>
+
 
 	<action id="com.onecrayon.DeleteLine" category="actions.text.text/minimalweb.textActions.manipulation/mwTextManipulation.1">
 		<class>Spice</class>
