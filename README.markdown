@@ -1,6 +1,8 @@
 Text.sugar for Espresso
 =======================
 
+*IMPORTANT: This sugar currently only works with Espresso 1.x and there are no plans to convert it for Espresso 2 at the moment. Feel free to pick up where I left off.*
+
 This sugar adds the following functionality from the *TextMate text.bundle* to Espresso
 (For some of the actions you need to install [Spice.sugar](http://github.com/onecrayon/Spice-sugar) by Ian Beck):
 
