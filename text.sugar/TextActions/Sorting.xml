@@ -1,12 +1,22 @@
 <?xml version="1.0"?>
 <action-sort-instructions>
 	<sort-template>
-		<selector>actions.text.autopairing</selector>
+		<selector>actions.text.generic</selector>
+		<selector>actions.text.featured</selector>
+		<selector>actions.text.convert</selector>
+		<selector>actions.text.lines</selector>
+		<selector>actions.text.selection</selector>
+		<selector>actions.text.moving</selector>
 		<selector>minimalweb.textActions.manipulation</selector>
+		<selector>actions.text.sorting</selector>
+		<selector>actions.text.formatting</selector>
+		<selector>actions.text.HTML</selector>
+		<selector>actions.text.autopairing</selector>
 		<selector>minimalweb.textActions.sorting</selector>
 		<selector>minimalweb.textActions.pairing</selector>
-		<selector>minimalweb.textActions.enclosure</selector>
-		<selector>minimalweb.textActions.helper</selector>
+		<selector>tea.insertion</selector>
+		<selector>tea.wrapping</selector>
+		<selector>minimalweb.textActions.snippets</selector>
 		<selector>*</selector>
 	</sort-template>
 </action-sort-instructions>

@@ -1,18 +1,10 @@
 <?xml version="1.0"?>
 <action-categories>
-	<category id="actions.text.text" show="sub">
-		<title>Text</title>
-	</category>
-	<category id="actions.text.wrapping" show="sub">
-		<title>Wrap Selection In…</title>
-	</category>
 	<category id="actions.text.converting" show="sub">
-		<title>Converting / Stripping</title>
+		<title>Convert</title>
 	</category>
 	<category id="minimalweb.textActions.manipulation" show="inline separated"></category>
-	<category id="minimalweb.textActions.sorting" show="inline separated"></category>
+	<category id="minimalweb.textActions.snippets" show="inline separated"></category>
 	<category id="minimalweb.textActions.converting" show="inline separated"></category>
 	<category id="minimalweb.textActions.pairing" show="inline separated"></category>
-	<category id="minimalweb.textActions.enclosure" show="inline separated"></category>
-	<category id="minimalweb.textActions.helper" show="inline separated"></category>
 </action-categories>

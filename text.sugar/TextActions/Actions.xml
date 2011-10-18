@@ -32,9 +32,9 @@
 	</snippet>
 
 
-	<action id="com.onecrayon.DeleteLine" category="actions.text.text/minimalweb.textActions.manipulation/mwTextManipulation.1">
+	<action id="de.minimalweb.textActions.duplicateSelection" category="actions.text.important/actions.text.generic/actions.text.lines/minimalweb.textActions.manipulation/1">
 		<class>Spice</class>
-		<title>Duplicate Selection</title>
+		<title>Duplicate Line/Selection</title>
 		<key-equivalent>shift control d</key-equivalent>
 		<setup>
 			<script>duplicate_selection</script>
@@ -42,7 +42,8 @@
 		</setup>
 	</action>
 	
-	<action id="com.onecrayon.DeleteLine" category="actions.text.text/minimalweb.textActions.manipulation/mwTextManipulation.2">
+  <!-- Line actions -->
+	<action id="com.onecrayon.DeleteLine" category="actions.text.important/actions.text.generic/actions.text.lines/minimalweb.textActions.manipulation/2">
 		<class>Spice</class>
 		<title>Delete Line</title>
 		<key-equivalent>shift control k</key-equivalent>
@@ -52,43 +53,13 @@
 		</setup>
 	</action>
 	
-	<action id="de.minimalweb.textActions.joinLines" category="actions.text.text/minimalweb.textActions.manipulation/mwTextManipulation.3">
+	<action id="de.minimalweb.textActions.joinLines" category="actions.text.important/actions.text.generic/actions.text.lines/minimalweb.textActions.manipulation/3">
 		<class>Spice</class>
 		<title>Join Line With Next</title>
 		<key-equivalent>control shift j</key-equivalent>
 		<setup>
 			<script>join_lines</script>
 			<undo_name>Join Lines</undo_name>
-		</setup>
-	</action>
-	
-	<action id="com.onecrayon.MoveLineUp" category="actions.text.text/minimalweb.textActions.sorting/mwTextSorting.1">
-		<class>Spice</class>
-		<title>Move Line Up</title>
-		<key-equivalent>control command arrow-up</key-equivalent>
-		<setup>
-			<script>move_line</script>
-			<undo_name>Move Line Up</undo_name>
-			<arguments>
-				<array>
-					<string>up</string>
-				</array>
-			</arguments>
-		</setup>
-	</action>
-	
-	<action id="com.onecrayon.MoveLineDown" category="actions.text.text/minimalweb.textActions.sorting/mwTextSorting.2">
-		<class>Spice</class>
-		<title>Move Line Down</title>
-		<key-equivalent>control command arrow-down</key-equivalent>
-		<setup>
-			<script>move_line</script>
-			<undo_name>Move Line Down</undo_name>
-			<arguments>
-				<array>
-					<string>down</string>
-				</array>
-			</arguments>
 		</setup>
 	</action>
 

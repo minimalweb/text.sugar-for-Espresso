@@ -1,99 +1,19 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <action-recipes>
-			
-	<action id="de.minimalweb.textActions.singleQuotes" category="actions.text.text/actions.text.wrapping/minimalweb.textActions.enclosure/mwTextEnclosure.5">
-		<class>TEAforEspresso</class>
-		<title>Single Quotes</title>
-		<key-equivalent>control '</key-equivalent>
-		<setup>
-			<action>insert_snippet</action>
-				<options>
-					<dict>
-						<key>default</key>
-						<string><![CDATA['${1:$SELECTED_TEXT}'$0]]></string>
-					</dict>
-				</options>
-			<undo_name>Single Quotes</undo_name>
-		</setup>
-	</action>
-		
-	<action id="de.minimalweb.textActions.doubleQuotes" category="actions.text.text/actions.text.wrapping/minimalweb.textActions.enclosure/mwTextEnclosure.4">
-		<class>TEAforEspresso</class>
-		<title>Double Quotes</title>
-		<key-equivalent>control "</key-equivalent>
-		<setup>
-			<action>insert_snippet</action>
-				<options>
-					<dict>
-						<key>default</key>
-						<string><![CDATA["${1:$SELECTED_TEXT}"$0]]></string>
-					</dict>
-				</options>
-			<undo_name>Double Quotes</undo_name>
-		</setup>
-	</action>
-		
-	<action id="de.minimalweb.textActions.doubleSquareBrackets" category="actions.text.text/actions.text.wrapping/minimalweb.textActions.enclosure/mwTextEnclosure.2">
-		<class>TEAforEspresso</class>
-		<title>Square Brackets</title>
-		<key-equivalent>control [</key-equivalent>
-		<setup>
-			<action>insert_snippet</action>
-				<options>
-					<dict>
-						<key>default</key>
-						<string><![CDATA[[${1:$SELECTED_TEXT}]$0]]></string>
-					</dict>
-				</options>
-			<undo_name>Square Brackets</undo_name>
-		</setup>
-	</action>
-		
-	<action id="de.minimalweb.textActions.doubleBrackets" category="actions.text.text/actions.text.wrapping/minimalweb.textActions.enclosure/mwTextEnclosure.1">
-		<class>TEAforEspresso</class>
-		<title>Brackets</title>
-		<key-equivalent>control (</key-equivalent>
-		<setup>
-			<action>insert_snippet</action>
-				<options>
-					<dict>
-						<key>default</key>
-						<string><![CDATA[(${1:$SELECTED_TEXT})$0]]></string>
-					</dict>
-				</options>
-			<undo_name>Brackets</undo_name>
-		</setup>
-	</action>
-		
-	<action id="de.minimalweb.textActions.doubleCurlyBrackets" category="actions.text.text/actions.text.wrapping/minimalweb.textActions.enclosure/mwTextEnclosure.3">
-		<class>TEAforEspresso</class>
-		<title>Curly Brackets</title>
-		<key-equivalent>control {</key-equivalent>
-		<setup>
-			<action>insert_snippet</action>
-				<options>
-					<dict>
-						<key>default</key>
-						<string><![CDATA[{${1:$SELECTED_TEXT}}$0]]></string>
-					</dict>
-				</options>
-			<undo_name>Curly Brackets</undo_name>
-		</setup>
-	</action>
 	
-	<snippet id="de.minimalweb.textActions.copyright" category="actions.text.text/minimalweb.textActions.helper/mwTextHelper.1">
+	<snippet id="de.minimalweb.textActions.copyright" category="actions.text.important/actions.text.generic/actions.text.formatting/minimalweb.textActions.snippets/1">
 	   <title>Copyright Notice</title>
 	   <text><![CDATA[(c) Copyright `date +"%Y"` ${1:Your Name}. All Rights Reserved.]]></text>
 	   <text-trigger>c)</text-trigger>
 	</snippet>
 	
-	<snippet id="de.minimalweb.textActions.date" category="actions.text.text/minimalweb.textActions.helper/mwTextHelper.2">
+	<snippet id="de.minimalweb.textActions.date" category="actions.text.important/actions.text.generic/actions.text.formatting/minimalweb.textActions.snippets/2">
 	   <title>Current Date – YYYY-MM-DD</title>
 	   <text><![CDATA[`date +"%Y-%m-%d"`]]></text>
 	   <text-trigger>isoD</text-trigger>
 	</snippet>
 	
-	<snippet id="de.minimalweb.textActions.loremipsum" category="actions.text.text/minimalweb.textActions.helper/mwTextHelper.3">
+	<snippet id="de.minimalweb.textActions.loremipsum" category="actions.text.important/actions.text.generic/actions.text.formatting/minimalweb.textActions.snippets/3">
 	   <title>Lorem Ipsum</title>
 	   <text><![CDATA[Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.]]></text>
 	   <text-trigger>lorem</text-trigger>
